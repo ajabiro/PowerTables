@@ -25,4 +25,5 @@ while True:
     elif keepGoing == "n":
         print("Goodbye!")
         break
-
+    else:
+        print("Enter either y/n")
