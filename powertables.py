@@ -1,7 +1,6 @@
 while True:
     userNum = int(input("Enter an integer: "))
 
-
     print("Number\t Squared\t Cubed")
     print("======\t =======\t =====")
 
@@ -16,3 +15,5 @@ while True:
         break
     else:
         print("Enter either y/n")
+
+
