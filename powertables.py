@@ -1,23 +1,12 @@
 while True:
     userNum = int(input("Enter an integer: "))
 
-    print("Number")
-    print("======")
-    for n in range(0, userNum):
-        n += 1
-        print(n)
 
-    print("Squared")
-    print("=======")
-    for n in range(0, userNum):
-        n += 1
-        print(n * n)
+    print("Number\t Squared\t Cubed")
+    print("======\t =======\t =====")
 
-    print("Cubed")
-    print("=====")
-    for n in range(0, userNum):
-        n += 1
-        print(n * n * n)
+    for n in range(1, userNum + 1):
+        print(f"{n}\t\t {n ** 2}\t\t\t {n ** 3}")
 
     keepGoing = input("Would you like to continue? (y/n)")
     if keepGoing == "y":
